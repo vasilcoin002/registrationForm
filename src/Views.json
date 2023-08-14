@@ -1,0 +1,106 @@
+{
+  "View-1" : {
+    "title": "Sign Up",
+    "items": [
+      {
+        "title": "Username",
+        "keyName": "username",
+        "optionType": "input",
+        "options": ["Enter your username"],
+        "obligatoryToFill" : true,
+        "id": 1
+      },
+      {
+        "title": "Password",
+        "keyName": "password",
+        "optionType": "password",
+        "options": ["Enter your password"],
+        "obligatoryToFill" : true,
+        "id": 2
+      },
+      {
+        "title": "I agree with policy of your company",
+        "keyName": "policyAgreement",
+        "optionType": "checkbox",
+        "options": [],
+        "obligatoryToFill" : true,
+        "id": 3
+      },
+      {
+        "title": "I want to get news from your company",
+        "keyName": "getNews",
+        "optionType": "checkbox",
+        "options": [],
+        "obligatoryToFill" : false,
+        "id": 4
+      }
+    ]
+  },
+
+  "View-2" : {
+    "title": "About User",
+    "items": [
+      {
+        "title": "Name",
+        "keyName": "name",
+        "optionType": "input",
+        "options": ["Enter your name"],
+        "obligatoryToFill" : true,
+        "id": 1
+      },
+      {
+        "title": "Surname",
+        "keyName": "surname",
+        "optionType": "input",
+        "options": ["Enter your surname"],
+        "obligatoryToFill" : true,
+        "id": 2
+      },
+      {
+        "title": "Sex",
+        "keyName": "sex",
+        "optionType": "select",
+        "options": ["Male", "Female"],
+        "obligatoryToFill" : true,
+        "id": 3
+      },
+      {
+        "title": "Occupation",
+        "keyName": "occupation",
+        "optionType": "select",
+        "options": ["Full-time job", "Part-time job", "Temporarily jobless", "Jobless"],
+        "obligatoryToFill" : false,
+        "id": 4
+      }
+    ]
+  },
+  "View-3": {
+    "title": "Random View",
+    "items": [
+      {
+        "title": "Married",
+        "keyName": "married",
+        "optionType": "select",
+        "options": ["Yes", "No"],
+        "obligatoryToFill" : false,
+        "id": 1
+      },
+      {
+        "title": "Age",
+        "keyName": "age",
+        "optionType": "select",
+        "options": ["Kid", "Teenager", "Adult"],
+        "obligatoryToFill" : false,
+        "id": 2
+      },
+      {
+        "title": "Sex",
+        "keyName": "sex",
+        "optionType": "select",
+        "options": ["Male", "Female"],
+        "obligatoryToFill" : false,
+        "id": 3
+      }
+    ]
+  }
+}
