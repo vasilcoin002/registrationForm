@@ -73,34 +73,5 @@
         "id": 4
       }
     ]
-  },
-  "View-3": {
-    "title": "Random View",
-    "items": [
-      {
-        "title": "Married",
-        "keyName": "married",
-        "optionType": "select",
-        "options": ["Yes", "No"],
-        "obligatoryToFill" : false,
-        "id": 1
-      },
-      {
-        "title": "Age",
-        "keyName": "age",
-        "optionType": "select",
-        "options": ["Kid", "Teenager", "Adult"],
-        "obligatoryToFill" : false,
-        "id": 2
-      },
-      {
-        "title": "Sex",
-        "keyName": "sex",
-        "optionType": "select",
-        "options": ["Male", "Female"],
-        "obligatoryToFill" : false,
-        "id": 3
-      }
-    ]
   }
 }
