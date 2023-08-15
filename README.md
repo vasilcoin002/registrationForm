@@ -1,7 +1,21 @@
 # Registration Form
 Registration Form with custom properties redacting in JSON file
+Contains:
++ Installing project
++ Start using this project
++ Create Views
 
 ## Installing project
+1. Install [git](https://git-scm.com/downloads)
+
+2. Move to folder you want to paste project in
+   ```
+   cd path
+   ```
+3. Execute:
+   ```
+   git clone https://github.com/vasilcoin002/registrationForm.git
+   ```
 
 ## Start using this project
 1. Install [Node.js](https://nodejs.org/en) from official site
