@@ -89,7 +89,7 @@ Each view has it's own `title`, and form options(`items`):
 }
 ```
 ### 3. View items
-View's items are `objects` which contain required info about form's field. Recomend you to use 4 items
+View's items are `objects` which contain required info about form's field. **Recomend you to use 4 items**
 ``` json
 {
   "View-1": {
@@ -143,3 +143,48 @@ All the user's data contains at an object lovated in App.jsx, named "AllUserData
 > // Master
 
 You should write a value of keyName without gaps
+
+### So now we can create a view
+``` json
+{
+  "View-1" : {
+    "title": "Sign Up",
+    "items": [
+      {
+        "title": "Username",
+        "keyName": "username",
+        "optionType": "input",
+        "options": ["Enter your username"],
+        "obligatoryToFill" : true,
+        "id": 1
+      },
+      {
+        "title": "Password",
+        "keyName": "password",
+        "optionType": "password",
+        "options": ["Enter your password"],
+        "obligatoryToFill" : true,
+        "id": 2
+      },
+      {
+        "title": "I agree with policy of your company",
+        "keyName": "policyAgreement",
+        "optionType": "checkbox",
+        "options": [],
+        "obligatoryToFill" : true,
+        "id": 3
+      },
+      {
+        "title": "I want to get news from your company",
+        "keyName": "getNews",
+        "optionType": "checkbox",
+        "options": [],
+        "obligatoryToFill" : false,
+        "id": 4
+      }
+    ]
+  }
+}
+```
+![View-1](https://i.imgur.com/rvevC7v.png)
+
